@@ -14,7 +14,6 @@ export async function getAreas(): Promise<string[]> {
     "Cherrywood",
     "Churchtown",
     "Clondalkin",
-    "Clonsilla",
     "Crumlin",
     "Dalkey",
     "Dartry",

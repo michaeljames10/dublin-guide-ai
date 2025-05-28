@@ -22,7 +22,7 @@ export default function Footer() {
 
       {/* Right content */}
       <div style={{ display: "flex", gap: "1rem" }}>
-        <NavLink href="/about" label="Contact" />
+        <NavLink fs="sm" href="/about" label="Contact" />
         <NavLink href="/about" label="About" />
       </div>
     </footer>
