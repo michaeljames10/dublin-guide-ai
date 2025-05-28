@@ -7,6 +7,8 @@ import { createTheme, MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { keywords } from "@/lib/keyKeywords";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,23 +24,7 @@ export const metadata: Metadata = {
   title: "Your Dublin Life Guide – Homes, Rentals & Local Finds",
   description:
     "Thinking of living in Dublin? Find the best places to rent or buy, explore top things to do, and get real tips on making the city feel like home.",
-  keywords: [
-    "Living in Dublin",
-    "Dublin guide",
-    "Renting in Dublin",
-    "Buying property in Dublin",
-    "Dublin neighborhoods",
-    "Things to do in Dublin",
-    "Dublin real estate",
-    "Dublin rentals",
-    "Dublin housing market",
-    "Best areas to live in Dublin",
-    "Dublin travel tips",
-    "Local Dublin experiences",
-    "Moving to Dublin",
-    "Dublin lifestyle",
-    "Explore Dublin",
-  ],
+  keywords: keywords,
 };
 
 const theme = createTheme({
@@ -59,6 +45,7 @@ export default function RootLayout({
           <Header />
           <Suspense fallback={<Loading />}>{children}</Suspense>
           <Footer />
+          <SpeedInsights />
         </MantineProvider>
       </body>
     </html>

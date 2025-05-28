@@ -14,6 +14,7 @@
     "@mantine/core": "^8.0.1",
     "@mantine/hooks": "^8.0.1",
     "@tabler/icons-react": "^3.33.0",
+    "@vercel/speed-insights": "^1.2.0",
     "ai": "^4.3.16",
     "js-cookie": "^3.0.5",
     "next": "15.1.8",

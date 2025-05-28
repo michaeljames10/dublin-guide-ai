@@ -1,0 +1,17 @@
+export const keywords: string[] = [
+  "Living in Dublin",
+  "Dublin guide",
+  "Renting in Dublin",
+  "Buying property in Dublin",
+  "Dublin neighborhoods",
+  "Things to do in Dublin",
+  "Dublin real estate",
+  "Dublin rentals",
+  "Dublin housing market",
+  "Best areas to live in Dublin",
+  "Dublin travel tips",
+  "Local Dublin experiences",
+  "Moving to Dublin",
+  "Dublin lifestyle",
+  "Explore Dublin",
+];
