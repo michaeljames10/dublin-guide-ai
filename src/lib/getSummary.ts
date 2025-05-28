@@ -77,7 +77,7 @@ Use only semantic HTML tags: <h1>, <h2>, <p>, <ul>, <li>, <div>, <span>. Do NOT 
 
   const htmlContent = result.text;
 
-  const filePath = path.join(summariesDir, `${area}.html`);
+  const filePath = path.join(summariesDir, `${area.toLowerCase()}.html`);
   await fs.mkdir(summariesDir, { recursive: true });
   await fs.writeFile(filePath, htmlContent);
 };

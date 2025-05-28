@@ -14,6 +14,8 @@ export async function getAreas(): Promise<string[]> {
     "Cherrywood",
     "Churchtown",
     "Clondalkin",
+    "Clonsilla",
+    "Clontarf",
     "Crumlin",
     "Dalkey",
     "Dartry",
@@ -23,6 +25,7 @@ export async function getAreas(): Promise<string[]> {
     "Drimnagh",
     "Drumcondra",
     "Dundrum",
+    "Fairview",
     "Finglas",
     "Foxrock",
     "Glasnevin",
@@ -34,6 +37,7 @@ export async function getAreas(): Promise<string[]> {
     "Kilmainham",
     "Kinsealy",
     "Knocklyon",
+    "Kimmage",
     "Leopardstown",
     "Lucan",
     "Lusk",
@@ -60,6 +64,5 @@ export async function getAreas(): Promise<string[]> {
     "Stoneybatter",
     "Tallaght",
     "Terenure",
-    "Walkinstown",
   ];
 }
