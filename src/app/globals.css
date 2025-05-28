@@ -4,7 +4,7 @@
 
 
 :root {
-  --background: #E6E8E6;
+  --background: #fff;
   --foreground: #080708;
   --primary: #3772FF; /* text-gray-800 */
 }
@@ -12,7 +12,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground: #080708;
-    --background: #E6E8E6;
+    --background: #fff;
     --primary: #3772FF; /* text-gray-200 */
   }
 }
